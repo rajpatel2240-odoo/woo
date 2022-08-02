@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" inherit_id="web.assets_backend"
+              name="WooCommerce Dashboard">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/odoo_wc_egs/static/src/js/view_form.js"/>
+            <script type="text/javascript" src="/odoo_wc_egs/static/src/js/wc_dashboard.js"/>
+            <link rel="stylesheet" href="/odoo_wc_egs/static/src/css/wc_dashboard.css"/>
+            <link rel="stylesheet" href="/odoo_wc_egs/static/src/css/style.css"/>
+        </xpath>
+    </template>
+</odoo>
